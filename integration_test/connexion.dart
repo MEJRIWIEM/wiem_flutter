@@ -4,7 +4,7 @@ import 'package:wiem_test_project/UI/pages/login.page.dart';
 
 /**
  * POUR EXECUTER LES TESTS D'INTEGRATION LANCEZ SUR LE TERMINAL:
- * flutter test integration_test/connexion_integration.dart
+ * flutter test integration_test/connexion.dart
  */
 
 main() {
@@ -52,7 +52,8 @@ main() {
           await tester.pumpWidget(login);
           await tester.pumpAndSettle();
           await remplirFormulaire("Wiem", "12345678", tester);
-          expect(find.byType(Scaffold), findsOneWidget);
+          //expect(find.byType(Scaffold), findsOneWidget);
+          expect(find.byKey(Key('messageUser')),findsOneWidget);
         },
       );
 

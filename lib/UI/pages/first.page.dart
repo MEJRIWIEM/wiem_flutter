@@ -27,6 +27,7 @@ class firstPage extends StatelessWidget {
           backgroundColor: Colors.indigo,
         ),
         body: Column(
+          key: Key("messageUser"),
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             SizedBox(
