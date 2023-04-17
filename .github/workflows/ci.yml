@@ -8,7 +8,7 @@ on:
 jobs:
   flutter_test:
     name: Run widget tests and integration tests
-    runs-on: windows-x64
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-java@v1
@@ -19,3 +19,8 @@ jobs:
           channel: "stable"
       - run: flutter pub get
       - run: flutter test integration_test/connexion.dart
+      - run: flutter test test/connected_drawer_testing.dart
+      - run: flutter test test/connexion_widget_testing.dart
+      - run: flutter test test/home_widget_testing.dart
+      - run: flutter test test/mydrawer_widget_testing.dart
+
