@@ -23,6 +23,7 @@ class homePage extends StatelessWidget {
         backgroundColor: Colors.indigo,
       ),
       body: Center(
+        key: Key('contenu'),
         child: Text.rich(
           TextSpan(
             text: 'App',

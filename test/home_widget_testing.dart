@@ -22,8 +22,9 @@ void main() {
       await tester.pumpWidget(baseApp);
 
       //tester l'existence du textfield nom et écriture d'un nom
-      final withText = find.text("Accueil");
-      expect(withText, findsOneWidget);
+      final content= find.byKey(Key('contenu'));
+      expect(content, findsOneWidget);
+      print(' ✔ Affichage du home');
     },
   );
 }

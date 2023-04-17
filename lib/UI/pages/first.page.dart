@@ -34,6 +34,7 @@ class firstPage extends StatelessWidget {
               width: 10.0,
             ),
             Text.rich(
+              key: Key('message'),
               TextSpan(
                 children: [
                   TextSpan(

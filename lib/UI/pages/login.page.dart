@@ -47,7 +47,7 @@ class _loginPageState extends State<loginPage> {
                   padding:
                       const EdgeInsets.symmetric(horizontal: 8, vertical: 16),
                   child: TextFormField(
-                    key: Key('nom'),
+                    key: Key('nomField'),
                     controller: nameController,
                     decoration: const InputDecoration(
                         border: OutlineInputBorder(), labelText: "Nom"),
@@ -63,7 +63,7 @@ class _loginPageState extends State<loginPage> {
                   padding:
                       const EdgeInsets.symmetric(horizontal: 8, vertical: 5),
                   child: TextFormField(
-                    key: Key('mdp'),
+                    key: Key('mdpField'),
                     controller: passwordController,
                     obscureText: true,
                     decoration: const InputDecoration(

@@ -3,6 +3,7 @@ import 'package:wiem_test_project/UI/pages/first.page.dart';
 import 'package:wiem_test_project/UI/pages/login.page.dart';
 
 import 'UI/pages/home.page.dart';
+import 'UI/widgets/mydrawer.widget.dart';
 
 void main() => runApp(MyApp());
 
@@ -19,6 +20,7 @@ class MyApp extends StatelessWidget {
         "/home": (context) => homePage(),
         "/login": (context) => loginPage(),
         "/first" : (context) => firstPage(name: ("")),
+        "/drawer" : (context) => myDrawer(),
       },
       theme: ThemeData(primarySwatch: Colors.blue),
       initialRoute: "/home",
