@@ -12,6 +12,7 @@ main() {
     data: const MediaQueryData(),
     child: MaterialApp(
       home: loginPage(),
+
     ),
   );
 

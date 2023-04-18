@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:wiem_test_project/UI/pages/login.page.dart';
+import 'package:testreport/testreport.dart';
 
 void main() {
   //Permet de construire l'app

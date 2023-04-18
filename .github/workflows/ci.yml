@@ -18,6 +18,7 @@ jobs:
         with:
           channel: "stable"
       - run: flutter pub get
+      - run: flutter run
       - run: flutter test integration_test/connexion.dart
       - run: flutter test test/connected_drawer_testing.dart
       - run: flutter test test/connexion_widget_testing.dart
