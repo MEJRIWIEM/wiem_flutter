@@ -35,7 +35,8 @@ class _loginPageState extends State<loginPage> {
             style: TextStyle(color: Colors.black54, fontSize: 20)),
         backgroundColor: Colors.indigo,
       ),
-      body: Center(
+      body: SingleChildScrollView(
+    child : Center(
         child: Form(
           key: _formKey,
           child: Padding(
@@ -139,7 +140,7 @@ class _loginPageState extends State<loginPage> {
             ),
           ),
         ),
-      ),
+      ),),
     );
   }
 }

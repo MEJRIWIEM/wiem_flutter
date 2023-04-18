@@ -41,6 +41,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.10.0"
+  better_test_reporter:
+    dependency: "direct main"
+    description:
+      name: better_test_reporter
+      sha256: ac68f4c04a8dd324075c8a8ac587b78cb286c3ce7bdf3e31e30c7779604e54f4
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.1.1"
   boolean_selector:
     dependency: transitive
     description:
@@ -197,6 +205,14 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  freezed_annotation:
+    dependency: transitive
+    description:
+      name: freezed_annotation
+      sha256: "1be037f901137bf2b9a0c309e9bf2694d6ec77687645211218191ade4f41a4b8"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.1.0"
   frontend_server_client:
     dependency: transitive
     description:
@@ -247,6 +263,14 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  intl:
+    dependency: transitive
+    description:
+      name: intl
+      sha256: "910f85bce16fb5c6f614e117efa303e85a1731bb0081edf3604a2ae6e9a3cc91"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.17.0"
   io:
     dependency: transitive
     description:
@@ -263,6 +287,22 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.6.5"
+  json_annotation:
+    dependency: transitive
+    description:
+      name: json_annotation
+      sha256: c33da08e136c3df0190bd5bbe51ae1df4a7d96e7954d1d7249fea2968a72d317
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.8.0"
+  junitreport:
+    dependency: "direct main"
+    description:
+      name: junitreport
+      sha256: "139a457f5d91e82744df09d04f272d23b6a81c8ef9b8b3bd1cd2e1768460fbeb"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.0.2"
   lints:
     dependency: transitive
     description:
@@ -351,6 +391,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.8.2"
+  petitparser:
+    dependency: transitive
+    description:
+      name: petitparser
+      sha256: "49392a45ced973e8d94a85fdb21293fbb40ba805fc49f2965101ae748a3683b4"
+      url: "https://pub.dev"
+    source: hosted
+    version: "5.1.0"
   platform:
     dependency: transitive
     description:
@@ -524,6 +572,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.4.20"
+  testreport:
+    dependency: "direct main"
+    description:
+      name: testreport
+      sha256: d9b9af11e591d15724f63324b7957e6b36c04cca293147db7761064bbf363b0d
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.0.1"
   typed_data:
     dependency: transitive
     description:
@@ -580,6 +636,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.2.0"
+  xml:
+    dependency: transitive
+    description:
+      name: xml
+      sha256: "80d494c09849dc3f899d227a78c30c5b949b985ededf884cb3f3bcd39f4b447a"
+      url: "https://pub.dev"
+    source: hosted
+    version: "5.4.1"
   yaml:
     dependency: transitive
     description:
